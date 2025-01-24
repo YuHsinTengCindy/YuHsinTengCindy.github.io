@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "yuhsinteng-cindy"
+version = "0.1.0"
+description = ""
+authors = ["YuHsinTengCindy <yuhsinteng@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
