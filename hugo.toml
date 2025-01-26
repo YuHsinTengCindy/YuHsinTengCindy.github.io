@@ -1,6 +1,6 @@
 baseURL = 'https://YuHsinTengCindy.github.io/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'YuhsinTeng Cindy blog'
 theme = 'PaperMod'
 
 rss = true
