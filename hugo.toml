@@ -1,4 +1,8 @@
-baseURL = 'https://YuHsinTengCindy.github.io/myblog/'
+baseURL = 'https://YuHsinTengCindy.github.io/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = 'PaperMod'
+
+rss = true
+
+metaDescription = "分享我的旅行故事、程式設計經驗以及生活點滴..."

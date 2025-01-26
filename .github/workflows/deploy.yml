@@ -40,7 +40,3 @@ jobs:
           git config user.email 'yuhsinteng@gmail.com'
           git commit -m 'Updated site'
           git push
-
-
-
-          
