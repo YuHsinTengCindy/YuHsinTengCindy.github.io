@@ -1,19 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>YuhsinTeng Cindy blog</title>
-    <link>http://localhost:1313/myblog/</link>
-    <description>Recent content on YuhsinTeng Cindy blog</description>
+    <title>YuhsinTeng Cindy docs</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on YuhsinTeng Cindy docs</description>
     <generator>Hugo -- 0.142.0</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 24 Jan 2025 12:21:16 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/myblog/index.xml" rel="self" type="application/rss+xml" />
+    <language>zh-tw</language>
+    <lastBuildDate>Sun, 26 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Test</title>
-      <link>http://localhost:1313/myblog/docs/test/</link>
-      <pubDate>Fri, 24 Jan 2025 12:21:16 +0800</pubDate>
-      <guid>http://localhost:1313/myblog/docs/test/</guid>
-      <description>&lt;p&gt;###測試###&lt;/p&gt;</description>
+      <title>My First Post</title>
+      <link>http://localhost:1313/docs/testnewpost-copy/</link>
+      <pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/testnewpost-copy/</guid>
+      <description>&lt;h1 id=&#34;測試&#34;&gt;測試&lt;/h1&gt;
+&lt;p&gt;測試&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/about/</guid>
+      <description>&lt;p&gt;About&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -1,8 +1,55 @@
 baseURL = 'https://YuHsinTengCindy.github.io/'
-languageCode = 'en-us'
-title = 'YuhsinTeng Cindy blog'
+languageCode = 'zh-tw'
+title = 'YuhsinTeng Cindy docs'
 theme = 'PaperMod'
 
 rss = true
 
-metaDescription = "分享我的旅行故事、程式設計經驗以及生活點滴！"
+metaDescription = "分享我的旅行故事、程式設計經驗以及生活點滴"
+
+[params]
+  author = "YuhsinTeng Cindy"
+  
+  [params.homeInfoParams]
+    Title = "嗨 我是 Cindy 小幸"
+    Content = """
+     程式學習新手，學習成長中
+      在這邊分享我的旅行故事、程式學習以及生活點滴！
+    """
+
+  [[params.socialIcons]]
+    name = "Github"
+    url = "https://github.com/YuHsinTengCindy"
+    
+
+    
+
+
+  ShowReadingTime = true
+  ShowShareButtons = true
+
+[menu]
+  [[menu.main]]
+   identifier = "docs"
+  name = "文章"
+  url = "/docs/"
+  weight = 10
+
+  [[menu.main]]
+  identifier = "tags"
+  name = "#Tags"
+  url = "/tags/"
+  weight = 20
+
+  [[menu.main]]
+  identifier = "categories"
+  name = "主題分類"
+  url = "/categories/"
+  weight = 30
+
+ [[menu.main]]
+  identifier = "about"
+  name = "關於"
+  url = "/about/"
+  weight = 40
+
