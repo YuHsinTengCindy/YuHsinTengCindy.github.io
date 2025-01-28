@@ -1,6 +1,6 @@
 baseURL = 'https://YuHsinTengCindy.github.io/'
 languageCode = 'zh-tw'
-title = 'YuhsinTeng Cindy docs'
+title = 'YuhsinTeng Cindy blog'
 theme = 'PaperMod'
 
 rss = true
