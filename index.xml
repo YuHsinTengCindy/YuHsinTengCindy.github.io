@@ -1,33 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>YuhsinTeng Cindy blog</title>
+    <title>YuhsinTeng Cindy docs</title>
     <link>https://YuHsinTengCindy.github.io/</link>
-    <description>Recent content on YuhsinTeng Cindy blog</description>
+    <description>Recent content on YuhsinTeng Cindy docs</description>
     <generator>Hugo -- 0.125.7</generator>
-    <language>en-us</language>
+    <language>zh-tw</language>
     <lastBuildDate>Sun, 26 Jan 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://YuHsinTengCindy.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My First Post</title>
-      <link>https://YuHsinTengCindy.github.io/docs/testnewpost/</link>
+      <link>https://YuHsinTengCindy.github.io/docs/testnewpost-copy/</link>
       <pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://YuHsinTengCindy.github.io/docs/testnewpost/</guid>
+      <guid>https://YuHsinTengCindy.github.io/docs/testnewpost-copy/</guid>
       <description>測試 測試</description>
     </item>
     <item>
-      <title>Your New Post</title>
-      <link>https://YuHsinTengCindy.github.io/posts/your-new-post/</link>
-      <pubDate>Fri, 24 Jan 2025 14:09:43 +0800</pubDate>
-      <guid>https://YuHsinTengCindy.github.io/posts/your-new-post/</guid>
-      <description>測試測試測試測試測試</description>
-    </item>
-    <item>
-      <title>Test</title>
-      <link>https://YuHsinTengCindy.github.io/docs/test/</link>
-      <pubDate>Fri, 24 Jan 2025 12:21:16 +0800</pubDate>
-      <guid>https://YuHsinTengCindy.github.io/docs/test/</guid>
-      <description>###測試###</description>
+      <title>About</title>
+      <link>https://YuHsinTengCindy.github.io/about/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://YuHsinTengCindy.github.io/about/about/</guid>
+      <description>About</description>
     </item>
   </channel>
 </rss>

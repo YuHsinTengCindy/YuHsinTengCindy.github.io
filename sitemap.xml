@@ -2,22 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://YuHsinTengCindy.github.io/tags/blog/</loc>
-    <lastmod>2025-01-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://YuHsinTengCindy.github.io/categories/blog/</loc>
-    <lastmod>2025-01-26T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://YuHsinTengCindy.github.io/categories/</loc>
+    <lastmod>2025-01-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://YuHsinTengCindy.github.io/tags/docs/</loc>
     <lastmod>2025-01-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://YuHsinTengCindy.github.io/docs/</loc>
     <lastmod>2025-01-26T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://YuHsinTengCindy.github.io/categories/docs/</loc>
+    <lastmod>2025-01-26T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://YuHsinTengCindy.github.io/tags/hugo/</loc>
     <lastmod>2025-01-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://YuHsinTengCindy.github.io/docs/testnewpost/</loc>
+    <loc>https://YuHsinTengCindy.github.io/docs/testnewpost-copy/</loc>
     <lastmod>2025-01-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://YuHsinTengCindy.github.io/tags/</loc>
@@ -26,13 +26,8 @@
     <loc>https://YuHsinTengCindy.github.io/</loc>
     <lastmod>2025-01-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://YuHsinTengCindy.github.io/posts/</loc>
-    <lastmod>2025-01-24T14:09:43+08:00</lastmod>
+    <loc>https://YuHsinTengCindy.github.io/about/about/</loc>
   </url><url>
-    <loc>https://YuHsinTengCindy.github.io/posts/your-new-post/</loc>
-    <lastmod>2025-01-24T14:09:43+08:00</lastmod>
-  </url><url>
-    <loc>https://YuHsinTengCindy.github.io/docs/test/</loc>
-    <lastmod>2025-01-24T12:21:16+08:00</lastmod>
+    <loc>https://YuHsinTengCindy.github.io/about/</loc>
   </url>
 </urlset>
