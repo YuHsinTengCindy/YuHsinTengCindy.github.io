@@ -1,7 +1,8 @@
 baseURL = 'https://YuHsinTengCindy.github.io/'
 languageCode = 'zh-tw'
-title = 'YuhsinTeng Cindy blog'
+title = "Cindy's blog"
 theme = 'PaperMod'
+enableEmoji = true
 
 rss = true
 
@@ -13,7 +14,8 @@ metaDescription = "分享我的旅行故事、程式設計經驗以及生活點�
   [params.homeInfoParams]
     Title = "嗨 我是 Cindy 小幸"
     Content = """
-     程式學習新手，學習成長中
+    Hello I’m Cindy, this is my blog
+     程式學習成長中
       在這邊分享我的旅行故事、程式學習以及生活點滴！
     """
 
@@ -21,12 +23,10 @@ metaDescription = "分享我的旅行故事、程式設計經驗以及生活點�
     name = "Github"
     url = "https://github.com/YuHsinTengCindy"
     
+  tags = true
+  categories = true
 
-    
-
-
-  ShowReadingTime = true
-  ShowShareButtons = true
+  
 
 [menu]
   [[menu.main]]
@@ -52,4 +52,5 @@ metaDescription = "分享我的旅行故事、程式設計經驗以及生活點�
   name = "關於"
   url = "/about/"
   weight = 40
+
 

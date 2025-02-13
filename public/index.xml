@@ -1,27 +1,58 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>YuhsinTeng Cindy blog</title>
+    <title>Cindy&#39;s blog</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content on YuhsinTeng Cindy blog</description>
+    <description>Recent content on Cindy&#39;s blog</description>
     <generator>Hugo -- 0.142.0</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Sun, 26 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 13 Feb 2025 14:50:52 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My First Post</title>
-      <link>http://localhost:1313/docs/testnewpost-copy/</link>
-      <pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/docs/testnewpost-copy/</guid>
-      <description>&lt;h1 id=&#34;測試&#34;&gt;測試&lt;/h1&gt;
-&lt;p&gt;測試&lt;/p&gt;</description>
+      <title>如何開始建立Hugo Web page?</title>
+      <link>http://localhost:1313/docs/forhugo/</link>
+      <pubDate>Thu, 13 Feb 2025 14:50:52 +0800</pubDate>
+      <guid>http://localhost:1313/docs/forhugo/</guid>
+      <description>&lt;p&gt;&lt;img alt=&#34;圖片描述&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/forHugo.png&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;如何開始建立hugo-web-page&#34;&gt;如何開始建立Hugo Web page?&lt;/h2&gt;
+&lt;h3 id=&#34;查詢網上資訊說5分鐘就可以建好&#34;&gt;查詢網上資訊說5分鐘就可以建好？&lt;/h3&gt;
+&lt;p&gt;一開始學習時在網上搜尋資料時，看到這標題真的很吸引人&lt;br&gt;
+看到這個標題還想說，那…應該可以的吧？&lt;br&gt;
+但是怎麼樣就是少了什麼沒有辦法成功&amp;hellip;&lt;br&gt;
+然後看助教幫同學處理問題也是花了點時間的,一起學習的同學也說有看到那吸引人眼晴的標題，她也是吶喊「才怪…連老師都抓一個小時，怎麼可能 5 分鐘就建好崩潰」&lt;/p&gt;
+&lt;h3 id=&#34;回頭整理&#34;&gt;回頭整理&lt;/h3&gt;
+&lt;p&gt;最近想整理資訊，建立自己的blog就又開始搜尋&lt;br&gt;
+後來得知了很棒的建立資源，但版本必較舊了加上都是英文也是花了點時間吸收&amp;#x1f606;&lt;/p&gt;
+&lt;h3 id=&#34;整理一下資訊上來&#34;&gt;整理一下資訊上來&lt;/h3&gt;
+&lt;p&gt;主要還是不外乎&lt;br&gt;
+安裝環境、挑選主題、上傳 GitHub&lt;br&gt;
+來～上教材：資訊是參考這邊（英文好的小夥伴可以打開來執行了）&lt;br&gt;
+&lt;a href=&#34;https://themes.gohugo.io/themes/hugo-papermod/&#34;&gt;https://themes.gohugo.io/themes/hugo-papermod/&lt;/a&gt;
+&lt;a href=&#34;https://theplaybook.dev/docs/deploy-hugo-to-github-pages/&#34;&gt;https://theplaybook.dev/docs/deploy-hugo-to-github-pages/&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;https://www.youtube.com/watch?v=_QSr2_pxIJs&#34;&gt;https://www.youtube.com/watch?v=_QSr2_pxIJs&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&#34;安裝-hugo-並創建新網站&#34;&gt;安裝 Hugo 並創建新網站&lt;/h4&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;brew install hugo 
+hugo new site theplaybook-demo -f yml
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;使用 Homebrew 安裝 Hugo，並執行 hugo new site &amp;lt;site_name&amp;gt; 來創建一個新的網站資料夾 &amp;lt;site_name&amp;gt;，並包含 Hugo 的模板。
+作者這邊執行完後有做&lt;code&gt;cd&lt;/code&gt;到他建立的theplaybook-demo，所以自己建立時可以檢查一下，自己有沒有確實在建立的檔案裡面。&lt;/p&gt;
+&lt;h4 id=&#34;設定-baseurl&#34;&gt;設定 baseurl&lt;/h4&gt;
+&lt;p&gt;找到baseURL 目前先不要設定 baseurl，保持空白。&lt;/p&gt;
+&lt;h4 id=&#34;創建新頁面&#34;&gt;創建新頁面&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;hugo new docs/test.md&lt;/code&gt;&lt;br&gt;
+用 hugo new &lt;!-- raw HTML omitted --&gt; 創建一個新的頁面。打開 test 文件，並將 draft: 設為false ，否則頁面將無法呈現。可以在 test. md 中添加隨便的內容。&lt;/p&gt;
+&lt;p&gt;執行 hugo server 可以在本地端的 localhost:1313 測試應用程式，但如果沒有設置佈景主題，可能會顯示佈局錯誤。&lt;/p&gt;</description>
     </item>
     <item>
       <title>About</title>
       <link>http://localhost:1313/about/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/about/about/</guid>
-      <description>&lt;p&gt;About&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;嗨-我是-cindy-小幸&#34;&gt;嗨 我是 Cindy 小幸&lt;/h1&gt;
+&lt;pre&gt;&lt;code&gt;Hello I’m Cindy, this is my blog
+ 程式學習成長中
+  在這邊分享我的旅行故事、程式學習以及生活點滴！
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;之後會分享跟多關於我的點滴&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

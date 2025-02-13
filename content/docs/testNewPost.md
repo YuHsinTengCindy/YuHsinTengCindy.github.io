@@ -6,6 +6,8 @@ tags: ["hugo", "docs"]
 categories: ["docs"]
 ---
 
-# 測試 false  
+# 測試  
+如要開啟 draft要是 false 
+false  
 
 測試
