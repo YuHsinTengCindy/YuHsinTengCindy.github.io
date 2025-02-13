@@ -14,7 +14,7 @@ metaDescription = "分享我的旅行故事、程式設計經驗以及生活點�
 [params.homeInfoParams]
   Title = "嗨 我是 Cindy 小幸"
   Content = """
-  ![Cindy's image](/images/cindy.png)
+  ![Cindy's image](/images/cindy_01.png)
     Hello I’m Cindy, this is my blog
     程式學習成長中
     在這邊分享我的旅行故事、程式學習以及生活點滴！
