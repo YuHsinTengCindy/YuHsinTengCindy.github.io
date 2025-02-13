@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Abouts on YuhsinTeng Cindy blog</title>
+    <title>Abouts on Cindy&#39;s blog</title>
     <link>https://YuHsinTengCindy.github.io/about/</link>
-    <description>Recent content in Abouts on YuhsinTeng Cindy blog</description>
+    <description>Recent content in Abouts on Cindy&#39;s blog</description>
     <generator>Hugo -- 0.125.7</generator>
     <language>zh-tw</language>
     <atom:link href="https://YuHsinTengCindy.github.io/about/index.xml" rel="self" type="application/rss+xml" />
@@ -12,7 +12,7 @@
       <link>https://YuHsinTengCindy.github.io/about/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://YuHsinTengCindy.github.io/about/about/</guid>
-      <description>About</description>
+      <description>嗨 我是 Cindy 小幸 Hello I’m Cindy, this is my blog 程式學習成長中 在這邊分享我的旅行故事、程式學習以及生活點滴！ 之後會分享跟多關於我的點滴</description>
     </item>
   </channel>
 </rss>
