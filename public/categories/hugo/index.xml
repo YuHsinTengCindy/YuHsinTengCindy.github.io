@@ -13,7 +13,7 @@
       <link>http://localhost:1313/docs/forhugo/</link>
       <pubDate>Thu, 13 Feb 2025 14:50:52 +0800</pubDate>
       <guid>http://localhost:1313/docs/forhugo/</guid>
-      <description>&lt;p&gt;&lt;img alt=&#34;圖片描述&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/forHugo.png&#34;&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;img alt=&#34;start hugo&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/forHugo.png&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;如何開始建立hugo-web-page&#34;&gt;如何開始建立Hugo Web page?&lt;/h2&gt;
 &lt;h3 id=&#34;查詢網上資訊說5分鐘就可以建好&#34;&gt;查詢網上資訊說5分鐘就可以建好？&lt;/h3&gt;
 &lt;p&gt;一開始學習時在網上搜尋資料時，看到這標題真的很吸引人&lt;br&gt;
@@ -39,8 +39,7 @@ hugo new site theplaybook-demo -f yml
 &lt;p&gt;找到baseURL 目前先不要設定 baseurl，保持空白。&lt;/p&gt;
 &lt;h4 id=&#34;創建新頁面&#34;&gt;創建新頁面&lt;/h4&gt;
 &lt;p&gt;&lt;code&gt;hugo new docs/test.md&lt;/code&gt;&lt;br&gt;
-用 hugo new &lt;!-- raw HTML omitted --&gt; 創建一個新的頁面。打開 test 文件，並將 draft: 設為false ，否則頁面將無法呈現。可以在 test. md 中添加隨便的內容。&lt;/p&gt;
-&lt;p&gt;執行 hugo server 可以在本地端的 localhost:1313 測試應用程式，但如果沒有設置佈景主題，可能會顯示佈局錯誤。&lt;/p&gt;</description>
+用 hugo new &lt;!-- raw HTML omitted --&gt; 創建一個新的頁面。打開 test 文件，並將 draft: 設為false ，否則頁面將無法呈現。可以在 test. md 中添加隨便的內容。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

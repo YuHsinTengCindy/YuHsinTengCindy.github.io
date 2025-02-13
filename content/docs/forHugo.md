@@ -8,7 +8,7 @@ categories =["hugo"]
 
 
 
-![圖片描述](/images/forHugo.png)
+![start hugo](/images/forHugo.png)
 
 ## 如何開始建立Hugo Web page?
 ### 查詢網上資訊說5分鐘就可以建好？

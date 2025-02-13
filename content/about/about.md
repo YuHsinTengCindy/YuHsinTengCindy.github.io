@@ -4,7 +4,7 @@ draft = false
 title = 'About'
 +++
  # 嗨 我是 Cindy 小幸
- ![圖片描述](/images/hi.png)
+ ![hi](/images/hi.png)
 
 Hello I’m Cindy, this is my blog    
 程式學習成長中  
