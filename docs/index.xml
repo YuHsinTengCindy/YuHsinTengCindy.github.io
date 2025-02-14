@@ -6,8 +6,33 @@
     <description>Recent content in Docs on Cindy&#39;s blog</description>
     <generator>Hugo -- 0.125.7</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Thu, 13 Feb 2025 14:50:52 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 13 Feb 2025 18:29:22 +0800</lastBuildDate>
     <atom:link href="https://YuHsinTengCindy.github.io/docs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Resource</title>
+      <link>https://YuHsinTengCindy.github.io/docs/resource/</link>
+      <pubDate>Thu, 13 Feb 2025 18:29:22 +0800</pubDate>
+      <guid>https://YuHsinTengCindy.github.io/docs/resource/</guid>
+      <description>上課介紹的資源整理 Python 為你自己學 Python 線上書
+JavaScript javascript-questions
+重新認識 JavaSript 鐵人 30 天
+重新認識 Vue.js 線上書
+CSS 日本優秀網站聚集地
+日本傳統配色網站
+運動曲線調節器
+金魚都能懂的 CSS
+Hugo 架站 Hugo 官網
+Markdown 語法
+MarkDown Emoji
+框架/套件 Tailwindcss daisyui
+alpine.js
+django
+Basic MDN 資訊字典 Stack-Overflow 資訊問題集 LeetCode 面試題大全 其他 github job
+syn tax
+同學部落格
+培鈞
+雷雷</description>
+    </item>
     <item>
       <title>如何開始建立Hugo Web page?</title>
       <link>https://YuHsinTengCindy.github.io/docs/forhugo/</link>
