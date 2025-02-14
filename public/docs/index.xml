@@ -6,8 +6,20 @@
     <description>Recent content in Docs on Cindy&#39;s blog</description>
     <generator>Hugo -- 0.142.0</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Thu, 13 Feb 2025 14:50:52 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 13 Feb 2025 18:29:22 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/docs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Resource</title>
+      <link>http://localhost:1313/docs/resource/</link>
+      <pubDate>Thu, 13 Feb 2025 18:29:22 +0800</pubDate>
+      <guid>http://localhost:1313/docs/resource/</guid>
+      <description>&lt;h1 id=&#34;上課介紹的資源整理&#34;&gt;上課介紹的資源整理&lt;/h1&gt;
+&lt;p&gt;CSS
+日本優秀網站聚集地&lt;a href=&#34;https://www.s5-style.com/&#34; title=&#34;游標顯示&#34;&gt;日本優秀網站聚集地&lt;/a&gt;
+日本傳統配色網站
+運動曲線調節器
+金魚都能懂的 CSS&lt;/p&gt;</description>
+    </item>
     <item>
       <title>如何開始建立Hugo Web page?</title>
       <link>http://localhost:1313/docs/forhugo/</link>
