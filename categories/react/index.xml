@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>React on Cindy&#39;s blog</title>
+    <link>https://YuHsinTengCindy.github.io/categories/react/</link>
+    <description>Recent content in React on Cindy&#39;s blog</description>
+    <generator>Hugo -- 0.125.7</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Wed, 26 Feb 2025 14:56:40 +0800</lastBuildDate>
+    <atom:link href="https://YuHsinTengCindy.github.io/categories/react/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>整理學習React</title>
+      <link>https://YuHsinTengCindy.github.io/docs/startlearningreact/</link>
+      <pubDate>Wed, 26 Feb 2025 14:56:40 +0800</pubDate>
+      <guid>https://YuHsinTengCindy.github.io/docs/startlearningreact/</guid>
+      <description>React 是什麼？ 先來基本瞭解下，React 是什麼？
+React 是一個陳述式、高效且具有彈性的 JavaScript 函式庫，用以建立使用者介面。它讓你使用小巧而獨立的「component」，來建立複雜的 UI。 由Ｆacebook在2013年開發出來的 嚴格上來說，React是函示庫（library),而不是框架（framework) 官網也大大地寫著：(React官網)
+The library for web and native user interfaces
+用於網頁和原生應用的使用者介面函式庫
+框架（Framework） vs. 函式庫（Library） 簡單區別 &amp;#x1f680; 框架（Framework） &amp;#x1f6e0;&amp;#xfe0f; 函式庫（Library） 提供完整架構，規定開發方式 提供功能，開發者決定怎麼用 「框架呼叫你的程式」（控制反轉） 「你呼叫函式庫」（開發者主導） 有規範，要照它的規則寫 彈性高，可以自由組合 &amp;#x1f4a1; 比喻：
+框架 = 連鎖手搖飲（基本著有標準 SOP，必須照流程做）
+函式庫 = 夜市小吃（自由選擇想吃什麼、怎麼搭配）
+例外與灰色地帶：為什麼有人會認為 React 是框架？ 雖然 React 被定義為函式庫，但當它與 React Router（路由）、Redux（狀態管理）等強大生態系工具 搭配使用時，它的 完整性 就變得類似於框架。因此，有些開發者在實務上會稱它為「框架級函式庫」。
+然而，React 本身不強制這些工具，因此仍然歸類為函式庫。
+為什麼要選擇學習使用 React ？ 編寫網頁需要用到三種語言：
+HTML，CSS，JavaScrip
+那先思考，那為什麼要使用React?
+React 不是取代 HTML、CSS、JavaScript，而是讓 前端開發更高效、更有組織性、更易於維護 的一個工具。
+&amp;#x1f4a1; 可以把它想像成：蓋房子的現代化工程技術，在 HTML、CSS、JavaScript 的基礎上，提供更強大的開發方式。</description>
+    </item>
+  </channel>
+</rss>
