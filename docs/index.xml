@@ -6,8 +6,40 @@
     <description>Recent content in Docs on Cindy&#39;s blog</description>
     <generator>Hugo -- 0.125.7</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Wed, 26 Feb 2025 14:56:40 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 26 Feb 2025 21:04:16 +0800</lastBuildDate>
     <atom:link href="https://YuHsinTengCindy.github.io/docs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>什麼是 Variable Hoisting ?JavaScript 變數提升</title>
+      <link>https://YuHsinTengCindy.github.io/docs/variablehoisting/</link>
+      <pubDate>Wed, 26 Feb 2025 21:04:16 +0800</pubDate>
+      <guid>https://YuHsinTengCindy.github.io/docs/variablehoisting/</guid>
+      <description>一邊整理JavaScript所學知識
+MDN:提升（Hoisting）
+來筆記釐清 JaveScript 在執行階段內文如何運行的思路。
+什麼是 Variable Hoisting ?JavaScript 變數提升
+我們用runtime的角度來看，它不是一口氣跑完，是分層兩階段運行，在創建期(Creation Phase)和執行期(Execution Phase)階段有不同得變化。
+來分解動作
+在 建立期 時，會兩階段運作
+註冊名稱identifier（要那個東西的名字） 1-2. 進行初始化（初始化那個東西，通常是undefined) 在 執行期 時
+執行函數/賦值（動作執行，或是給值，都是這個時候） 好的，來看
+var a = 1;
+console.log(a);
+建立期: 1. var a 1-2.undefined 執行期: a = 1 console.log(a) /印出1 那同理可知，如果是這樣呢？
+console.log(a);
+var a =1;
+console.log(a);
+會印出什麼？
+答案是： undefined （第一圈已知有var a也有初始化，但第二圈執行期時先跑了他，但這邊還沒有賦值） 1 （已知a=1,執行出結果1） 所以同理就可以理解
+if(false){
+var a = 1;
+}
+console.log(a);
+是印出 undefined
+那let呢？let不會變數提升？
+No No~
+要記得JS本身就是分層兩階段運行，不管怎麼寫就是兩階段運做，運行時就是會提昇，那到底為什麼會有出錯的狀況呢？
+像是</description>
+    </item>
     <item>
       <title>整理學習React</title>
       <link>https://YuHsinTengCindy.github.io/docs/startlearningreact/</link>
@@ -47,7 +79,9 @@ MarkDown Emoji
 框架/套件 Tailwindcss daisyui
 alpine.js
 django
-Basic MDN 資訊字典 Stack-Overflow 資訊問題集 LeetCode 面試題大全 Explain This
+Basic MDN 資訊字典
+Stack-Overflow 資訊問題集
+LeetCode 面試題大全 Explain This
 其他 github job
 syn tax 2024iThome鐵人賽 強者們學習資源
 同學部落格
