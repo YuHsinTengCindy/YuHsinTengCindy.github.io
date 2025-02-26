@@ -6,8 +6,62 @@
     <description>Recent content on Cindy&#39;s blog</description>
     <generator>Hugo -- 0.142.0</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Wed, 26 Feb 2025 14:56:40 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 26 Feb 2025 21:04:16 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>什麼是 Variable Hoisting ?JavaScript 變數提升</title>
+      <link>http://localhost:1313/docs/variablehoisting/</link>
+      <pubDate>Wed, 26 Feb 2025 21:04:16 +0800</pubDate>
+      <guid>http://localhost:1313/docs/variablehoisting/</guid>
+      <description>&lt;p&gt;&lt;img alt=&#34;VariableHoisting&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/VariableHoisting.png&#34;&gt;
+一邊整理JavaScript所學知識&lt;br&gt;
+&lt;a href=&#34;https://developer.mozilla.org/zh-TW/docs/Glossary/Hoisting&#34;&gt;MDN:提升（Hoisting）&lt;/a&gt;&lt;br&gt;
+來筆記釐清 JaveScript 在執行階段內文如何運行的思路。&lt;br&gt;
+什麼是 Variable Hoisting ?JavaScript 變數提升&lt;br&gt;
+我們用runtime的角度來看，它不是一口氣跑完，是分層兩階段運行，在創建期(Creation Phase)和執行期(Execution Phase)階段有不同得變化。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;來分解動作&lt;/p&gt;
+&lt;p&gt;在 &lt;strong&gt;建立期&lt;/strong&gt; 時，會兩階段運作&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;註冊名稱identifier（要那個東西的名字）
+1-2. 進行初始化（初始化那個東西，通常是undefined)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;在 &lt;strong&gt;執行期&lt;/strong&gt; 時&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;執行函數/賦值（動作執行，或是給值，都是這個時候）&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;p&gt;好的，來看&lt;/p&gt;
+&lt;p&gt;var a = 1;&lt;br&gt;
+console.log(a);&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;建立期:
+1. var a    1-2.undefined 
+&lt;/code&gt;&lt;/pre&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;執行期:
+a = 1
+console.log(a) /印出1
+&lt;/code&gt;&lt;/pre&gt;&lt;hr&gt;
+&lt;p&gt;那同理可知，如果是這樣呢？&lt;/p&gt;
+&lt;p&gt;console.log(a);&lt;br&gt;
+var a =1;&lt;br&gt;
+console.log(a);&lt;/p&gt;
+&lt;p&gt;會印出什麼？&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;答案是：
+undefined （第一圈已知有var a也有初始化，但第二圈執行期時先跑了他，但這邊還沒有賦值）
+1         （已知a=1,執行出結果1）
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;所以同理就可以理解&lt;br&gt;
+if(false){&lt;br&gt;
+var a = 1;&lt;br&gt;
+}&lt;br&gt;
+console.log(a);&lt;br&gt;
+&lt;code&gt;是印出 undefined&lt;/code&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;那let呢？let不會變數提升？&lt;/strong&gt;&lt;br&gt;
+No No~&lt;br&gt;
+要記得JS本身就是分層兩階段運行，不管怎麼寫就是兩階段運做，運行時就是會提昇，那到底為什麼會有出錯的狀況呢？&lt;/p&gt;
+&lt;p&gt;像是&lt;br&gt;
+console.log(b);&lt;br&gt;
+let b = 1;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>整理學習React</title>
       <link>http://localhost:1313/docs/startlearningreact/</link>
@@ -88,9 +142,9 @@ HTML，CSS，JavaScrip&lt;/p&gt;
 &lt;a href=&#34;https://alpinejs.dev/essentials/installation&#34;&gt;alpine.js&lt;/a&gt;&lt;br&gt;
 &lt;a href=&#34;https://www.djangoproject.com/&#34;&gt;django&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;basic&#34;&gt;Basic&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&#34;https://developer.mozilla.org/zh-TW/&#34;&gt;MDN 資訊字典&lt;/a&gt;
-&lt;a href=&#34;https://stackoverflow.com/questions&#34;&gt;Stack-Overflow 資訊問題集&lt;/a&gt;
-&lt;a href=&#34;https://leetcode.com/explore/&#34;&gt;LeetCode 面試題大全 &lt;/a&gt;
+&lt;p&gt;&lt;a href=&#34;https://developer.mozilla.org/zh-TW/&#34;&gt;MDN 資訊字典&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;https://stackoverflow.com/questions&#34;&gt;Stack-Overflow 資訊問題集&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;https://leetcode.com/explore/&#34;&gt;LeetCode 面試題大全 &lt;/a&gt;&lt;br&gt;
 &lt;a href=&#34;https://www.explainthis.io/zh-hant&#34;&gt;Explain This&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;其他&#34;&gt;其他&lt;/h3&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/f2etw/jobs/issues&#34;&gt;github job&lt;/a&gt;&lt;br&gt;

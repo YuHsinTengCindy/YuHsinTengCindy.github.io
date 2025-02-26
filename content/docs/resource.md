@@ -34,11 +34,11 @@ categories =["Resource"]
 [alpine.js](https://alpinejs.dev/essentials/installation)  
 [django](https://www.djangoproject.com/)  
 ### Basic
-[MDN 資訊字典](https://developer.mozilla.org/zh-TW/)
-[Stack-Overflow 資訊問題集](https://stackoverflow.com/questions)
-[LeetCode 面試題大全 ](https://leetcode.com/explore/)
-[Explain This](https://www.explainthis.io/zh-hant)
-### 其他   
+[MDN 資訊字典](https://developer.mozilla.org/zh-TW/)  
+[Stack-Overflow 資訊問題集](https://stackoverflow.com/questions)  
+[LeetCode 面試題大全 ](https://leetcode.com/explore/)  
+[Explain This](https://www.explainthis.io/zh-hant)  
+### 其他     
 [github job](https://github.com/f2etw/jobs/issues)  
 [syn tax](https://syntax.fm/)    
 [2024iThome鐵人賽 強者們學習資源](https://ithelp.ithome.com.tw/2024ironman/reward)  

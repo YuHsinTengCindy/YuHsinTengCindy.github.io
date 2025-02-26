@@ -5,11 +5,58 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="noindex, nofollow">
-<title>React | Cindy&#39;s blog</title>
-<meta name="keywords" content="">
-<meta name="description" content="">
+<title>什麼是 Variable Hoisting ?JavaScript 變數提升 | Cindy&#39;s blog</title>
+<meta name="keywords" content="JavaScript, Hoisting">
+<meta name="description" content="
+一邊整理JavaScript所學知識
+MDN:提升（Hoisting）
+來筆記釐清 JaveScript 在執行階段內文如何運行的思路。
+什麼是 Variable Hoisting ?JavaScript 變數提升
+我們用runtime的角度來看，它不是一口氣跑完，是分層兩階段運行，在創建期(Creation Phase)和執行期(Execution Phase)階段有不同得變化。
+
+來分解動作
+在 建立期 時，會兩階段運作
+
+註冊名稱identifier（要那個東西的名字）
+1-2. 進行初始化（初始化那個東西，通常是undefined)
+
+在 執行期 時
+
+執行函數/賦值（動作執行，或是給值，都是這個時候）
+
+
+好的，來看
+var a = 1;
+console.log(a);
+建立期:
+1. var a    1-2.undefined 
+執行期:
+a = 1
+console.log(a) /印出1
+
+那同理可知，如果是這樣呢？
+console.log(a);
+var a =1;
+console.log(a);
+會印出什麼？
+答案是：
+undefined （第一圈已知有var a也有初始化，但第二圈執行期時先跑了他，但這邊還沒有賦值）
+1         （已知a=1,執行出結果1）
+所以同理就可以理解
+if(false){
+var a = 1;
+}
+console.log(a);
+是印出 undefined
+
+那let呢？let不會變數提升？
+No No~
+要記得JS本身就是分層兩階段運行，不管怎麼寫就是兩階段運做，運行時就是會提昇，那到底為什麼會有出錯的狀況呢？
+像是
+console.log(b);
+let b = 1;">
 <meta name="author" content="YuhsinTeng Cindy">
-<link rel="canonical" href="http://localhost:1313/categories/react/">
+<link rel="canonical" href="http://localhost:1313/docs/variablehoisting/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.45e028aa8ce0961349adf411b013ee39406be2c0bc80d4ea3fc04555f7f4611a.css" integrity="sha256-ReAoqozglhNJrfQRsBPuOUBr4sC8gNTqP8BFVff0YRo=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
@@ -18,8 +65,7 @@
 <link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/categories/react/index.xml">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/categories/react/">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/docs/variablehoisting/">
 <noscript>
     <style>
         #theme-toggle,
@@ -59,7 +105,7 @@
 </noscript>
 </head>
 
-<body class="list" id="top">
+<body class="" id="top">
 <script>
     if (localStorage.getItem("pref-theme") === "dark") {
         document.body.classList.add('dark');
@@ -125,38 +171,141 @@
         </ul>
     </nav>
 </header>
-<main class="main"> 
-<header class="page-header">
-  <h1>
-    React
-  </h1>
-</header>
+<main class="main">
 
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">整理學習React
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>
-React 是什麼？ 先來基本瞭解下，React 是什麼？
-React 是一個陳述式、高效且具有彈性的 JavaScript 函式庫，用以建立使用者介面。它讓你使用小巧而獨立的「component」，來建立複雜的 UI。 由Ｆacebook在2013年開發出來的 嚴格上來說，React是函示庫（library),而不是框架（framework) 官網也大大地寫著：(React官網)
-The library for web and native user interfaces
-用於網頁和原生應用的使用者介面函式庫
-框架（Framework） vs. 函式庫（Library） 簡單區別 🚀 框架（Framework） 🛠️ 函式庫（Library） 提供完整架構，規定開發方式 提供功能，開發者決定怎麼用 「框架呼叫你的程式」（控制反轉） 「你呼叫函式庫」（開發者主導） 有規範，要照它的規則寫 彈性高，可以自由組合 💡 比喻：
-框架 = 連鎖手搖飲（基本著有標準 SOP，必須照流程做）
-函式庫 = 夜市小吃（自由選擇想吃什麼、怎麼搭配）
-例外與灰色地帶：為什麼有人會認為 React 是框架？ 雖然 React 被定義為函式庫，但當它與 React Router（路由）、Redux（狀態管理）等強大生態系工具 搭配使用時，它的 完整性 就變得類似於框架。因此，有些開發者在實務上會稱它為「框架級函式庫」。
-然而，React 本身不強制這些工具，因此仍然歸類為函式庫。
-為什麼要選擇學習使用 React ？ 編寫網頁需要用到三種語言：
-HTML，CSS，JavaScrip
-那先思考，那為什麼要使用React?
-React 不是取代 HTML、CSS、JavaScript，而是讓 前端開發更高效、更有組織性、更易於維護 的一個工具。
-💡 可以把它想像成：蓋房子的現代化工程技術，在 HTML、CSS、JavaScript 的基礎上，提供更強大的開發方式。
-...</p>
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      什麼是 Variable Hoisting ?JavaScript 變數提升
+    </h1>
+    <div class="post-meta"><span title='2025-02-26 21:04:16 +0800 CST'>February 26, 2025</span>&nbsp;·&nbsp;YuhsinTeng Cindy
+
+</div>
+  </header> 
+  <div class="post-content"><p><img alt="VariableHoisting" loading="lazy" src="/images/VariableHoisting.png">
+一邊整理JavaScript所學知識<br>
+<a href="https://developer.mozilla.org/zh-TW/docs/Glossary/Hoisting">MDN:提升（Hoisting）</a><br>
+來筆記釐清 JaveScript 在執行階段內文如何運行的思路。<br>
+什麼是 Variable Hoisting ?JavaScript 變數提升<br>
+我們用runtime的角度來看，它不是一口氣跑完，是分層兩階段運行，在創建期(Creation Phase)和執行期(Execution Phase)階段有不同得變化。</p>
+<hr>
+<p>來分解動作</p>
+<p>在 <strong>建立期</strong> 時，會兩階段運作</p>
+<ol>
+<li>註冊名稱identifier（要那個東西的名字）
+1-2. 進行初始化（初始化那個東西，通常是undefined)</li>
+</ol>
+<p>在 <strong>執行期</strong> 時</p>
+<ol>
+<li>執行函數/賦值（動作執行，或是給值，都是這個時候）</li>
+</ol>
+<hr>
+<p>好的，來看</p>
+<p>var a = 1;<br>
+console.log(a);</p>
+<pre tabindex="0"><code>建立期:
+1. var a    1-2.undefined 
+</code></pre><pre tabindex="0"><code>執行期:
+a = 1
+console.log(a) /印出1
+</code></pre><hr>
+<p>那同理可知，如果是這樣呢？</p>
+<p>console.log(a);<br>
+var a =1;<br>
+console.log(a);</p>
+<p>會印出什麼？</p>
+<pre tabindex="0"><code>答案是：
+undefined （第一圈已知有var a也有初始化，但第二圈執行期時先跑了他，但這邊還沒有賦值）
+1         （已知a=1,執行出結果1）
+</code></pre><p>所以同理就可以理解<br>
+if(false){<br>
+var a = 1;<br>
+}<br>
+console.log(a);<br>
+<code>是印出 undefined</code></p>
+<hr>
+<p><strong>那let呢？let不會變數提升？</strong><br>
+No No~<br>
+要記得JS本身就是分層兩階段運行，不管怎麼寫就是兩階段運做，運行時就是會提昇，那到底為什麼會有出錯的狀況呢？</p>
+<p>像是<br>
+console.log(b);<br>
+let b = 1;</p>
+<p>我們來看看</p>
+<pre tabindex="0"><code>建立期
+1. let b   
+2.進入TDZ
+</code></pre><pre tabindex="0"><code>執行期
+❌ 出現 ReferenceError
+訊息是 Cannot access &#39;b&#39; before initialization
+初始化之前無法存取“b”
+</code></pre><p>在<strong>ES6</strong>之後加入了let/const，而let他解決了一些var會有的一些問題。</p>
+<p>像是如果var重複宣告，<br>
+var a=1<br>
+*//然後中間寫了很多很多&hellip;*後面又寫上，<br>
+var a=2<br>
+接 console.log(a)，答案是什麼？<br>
+<code>會是  2</code></p>
+<p>但是，如果是在有let的情況下，不小心發生這樣的狀況，它是會爆炸❌給你看的唷～  不對的事情，就是該出現錯誤訊息。</p>
+<hr>
+<p><strong>暫時死區（TDZ, Temporal Dead Zone）</strong><br>
+那TDZ暫時死區是什麼，聽起來真的好像什麼遊戲很酷的大招？<br>
+&#x1f4a1;可以想像，它是像是一個罩子一樣，把它覆蓋了起來。<br>
+與 var 不同的是，let是會進入「暫時死區」（TDZ, Temporal Dead Zone），那怎麼把它罩子解開呢？  就是到程式執行到給值它們為止。  <strong>如果在此之前訪問它們，會拋出錯誤!</strong></p>
+<blockquote>
+<p>但就特別的是，如果是:<br>
+let a;<br>
+console.log(a);<br>
+這邊它沒有給他任何值，JS在這裡還是有退讓的。先思考有沒有let a，是有let a的，但沒有後續沒有罩子是什麼？對，就是被動的給了undefined。</p>
+</blockquote>
+<hr>
+<p><strong>常數宣告，const</strong><br>
+也是跟let一樣修改了之前var這樣的錯誤。<br>
+但留意因為<strong>const是不能重新給值的</strong>，所以如果是同狀況上面變const a;的情況，<br>
+const沒有任何值是不行的喔，它就是沒有任何意義。</p>
+<hr>
+<p><strong>函式陳述式 (Function Declaration) 提升</strong></p>
+<p>函式陳述式 (Function Declaration)
+完整提升，名稱和內容都在建立期就準備好，所以可以提前呼叫</p>
+<p>sayHi();</p>
+<p>function sayHi() {
+console.log(&ldquo;Hi!&rdquo;);
+}
+來看看 JS 怎麼運作</p>
+<pre tabindex="0"><code>建立期
+1. 註冊名稱：function sayHi
+2. 初始化：函式內容完整註冊（所以可以直接用）
+</code></pre><pre tabindex="0"><code>執行期
+1. 執行 sayHi() → 印出 &#34;Hi!&#34;
+</code></pre><p>因為 function sayHi 在建立期時就已經被完全準備好，執行時可以直接使用！</p>
+<p>換句話說，這段程式其實等同於這樣：
+function sayHi() {<br>
+console.log(&ldquo;Hi!&rdquo;);<br>
+}</p>
+<p>sayHi();</p>
+<hr>
+<p><strong>函式表達式 (Function Expression)</strong></p>
+<p>sayHi(); <code>//  ❌TypeError: sayHi is not a function</code></p>
+<p>var sayHi = function() { <br>
+console.log(&ldquo;Hi!&rdquo;);<br>
+};<br>
+來看看 JS 怎麼運作</p>
+<pre tabindex="0"><code>建立期
+1. 註冊名稱：var sayHi
+2. 初始化：sayHi = undefined
+</code></pre><pre tabindex="0"><code>執行期
+1. 執行 sayHi() → ❌ TypeError（因為此時 sayHi 還是 undefined）
+</code></pre><p>所以 sayHi() 在還沒賦值前就執行，會報錯</p>
+
+
   </div>
-  <footer class="entry-footer"><span title='2025-02-26 14:56:40 +0800 CST'>February 26, 2025</span>&nbsp;·&nbsp;YuhsinTeng Cindy</footer>
-  <a class="entry-link" aria-label="post link to 整理學習React" href="http://localhost:1313/docs/startlearningreact/"></a>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/javascript/">JavaScript</a></li>
+      <li><a href="http://localhost:1313/tags/hoisting/">Hoisting</a></li>
+    </ul>
+  </footer>
 </article>
     </main>
     
