@@ -6,15 +6,67 @@
     <description>Recent content on Cindy&#39;s blog</description>
     <generator>Hugo -- 0.142.0</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Thu, 13 Feb 2025 18:29:22 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 26 Feb 2025 14:56:40 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Resource</title>
+      <title>整理學習React</title>
+      <link>http://localhost:1313/docs/startlearningreact/</link>
+      <pubDate>Wed, 26 Feb 2025 14:56:40 +0800</pubDate>
+      <guid>http://localhost:1313/docs/startlearningreact/</guid>
+      <description>&lt;p&gt;&lt;img alt=&#34;React&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/react01.png&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;react-是什麼&#34;&gt;React 是什麼？&lt;/h2&gt;
+&lt;p&gt;先來基本瞭解下，React 是什麼？&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;React 是一個陳述式、高效且具有彈性的 JavaScript 函式庫，用以建立使用者介面。它讓你使用小巧而獨立的「component」，來建立複雜的 UI。&lt;/li&gt;
+&lt;li&gt;由Ｆacebook在2013年開發出來的&lt;/li&gt;
+&lt;li&gt;嚴格上來說，React是函示庫（library),而不是框架（framework)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;官網也大大地寫著：&lt;a href=&#34;https://react.dev/&#34;&gt;(React官網)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The library for web and native user interfaces&lt;br&gt;
+用於網頁和原生應用的使用者介面函式庫&lt;/p&gt;
+&lt;h3 id=&#34;框架framework-vs-函式庫library-簡單區別&#34;&gt;框架（Framework） vs. 函式庫（Library） 簡單區別&lt;/h3&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;&amp;#x1f680; 框架（Framework）&lt;/th&gt;
+          &lt;th&gt;&amp;#x1f6e0;&amp;#xfe0f; 函式庫（Library）&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;提供完整架構，規定開發方式&lt;/td&gt;
+          &lt;td&gt;提供功能，開發者決定怎麼用&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;「框架呼叫你的程式」（控制反轉）&lt;/td&gt;
+          &lt;td&gt;「你呼叫函式庫」（開發者主導）&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;有規範，要照它的規則寫&lt;/td&gt;
+          &lt;td&gt;彈性高，可以自由組合&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&amp;#x1f4a1; 比喻：&lt;/p&gt;
+&lt;p&gt;框架 = 連鎖手搖飲（基本著有標準 SOP，必須照流程做）&lt;br&gt;
+函式庫 = 夜市小吃（自由選擇想吃什麼、怎麼搭配）&lt;/p&gt;
+&lt;h3 id=&#34;例外與灰色地帶為什麼有人會認為-react-是框架&#34;&gt;例外與灰色地帶：為什麼有人會認為 React 是框架？&lt;/h3&gt;
+&lt;p&gt;雖然 React 被定義為函式庫，但當它與 React Router（路由）、Redux（狀態管理）等強大生態系工具 搭配使用時，它的 完整性 就變得類似於框架。因此，有些開發者在實務上會稱它為「框架級函式庫」。&lt;br&gt;
+然而，React 本身不強制這些工具，因此仍然歸類為函式庫。&lt;/p&gt;
+&lt;h3 id=&#34;為什麼要選擇學習使用-react-&#34;&gt;為什麼要選擇學習使用 React ？&lt;/h3&gt;
+&lt;p&gt;編寫網頁需要用到三種語言：&lt;br&gt;
+HTML，CSS，JavaScrip&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;那先思考，那為什麼要使用React?&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;React 不是取代 HTML、CSS、JavaScript，而是讓 前端開發更高效、更有組織性、更易於維護 的一個工具。&lt;/p&gt;
+&lt;p&gt;&amp;#x1f4a1; 可以把它想像成：蓋房子的現代化工程技術，在 HTML、CSS、JavaScript 的基礎上，提供更強大的開發方式。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>學習資源整理</title>
       <link>http://localhost:1313/docs/resource/</link>
       <pubDate>Thu, 13 Feb 2025 18:29:22 +0800</pubDate>
       <guid>http://localhost:1313/docs/resource/</guid>
       <description>&lt;p&gt;&lt;img alt=&#34;resource&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/resourec.png&#34;&gt;&lt;/p&gt;
-&lt;h1 id=&#34;上課介紹的資源整理&#34;&gt;上課介紹的資源整理&lt;/h1&gt;
+&lt;h1 id=&#34;上課介紹的資源整理線上自我學習資源整理&#34;&gt;上課介紹的資源整理、線上自我學習資源整理&lt;/h1&gt;
 &lt;h3 id=&#34;python&#34;&gt;Python&lt;/h3&gt;
 &lt;p&gt;&lt;a href=&#34;https://pythonbook.cc/chapters/basic/introduction&#34;&gt;為你自己學 Python 線上書&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;javascript&#34;&gt;JavaScript&lt;/h3&gt;
@@ -38,10 +90,12 @@
 &lt;h3 id=&#34;basic&#34;&gt;Basic&lt;/h3&gt;
 &lt;p&gt;&lt;a href=&#34;https://developer.mozilla.org/zh-TW/&#34;&gt;MDN 資訊字典&lt;/a&gt;
 &lt;a href=&#34;https://stackoverflow.com/questions&#34;&gt;Stack-Overflow 資訊問題集&lt;/a&gt;
-&lt;a href=&#34;https://leetcode.com/explore/&#34;&gt;LeetCode 面試題大全 &lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;https://leetcode.com/explore/&#34;&gt;LeetCode 面試題大全 &lt;/a&gt;
+&lt;a href=&#34;https://www.explainthis.io/zh-hant&#34;&gt;Explain This&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;其他&#34;&gt;其他&lt;/h3&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/f2etw/jobs/issues&#34;&gt;github job&lt;/a&gt;&lt;br&gt;
-&lt;a href=&#34;https://syntax.fm/&#34;&gt;syn tax&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;https://syntax.fm/&#34;&gt;syn tax&lt;/a&gt; &lt;br&gt;
+&lt;a href=&#34;https://ithelp.ithome.com.tw/2024ironman/reward&#34;&gt;2024iThome鐵人賽 強者們學習資源&lt;/a&gt;&lt;br&gt;
 &lt;strong&gt;同學部落格&lt;/strong&gt;&lt;br&gt;
 &lt;a href=&#34;https://realnewbie.com/&#34;&gt;培鈞&lt;/a&gt;&lt;br&gt;
 &lt;a href=&#34;https://noobincoding.zeabur.app/posts/resource/&#34;&gt;雷雷&lt;/a&gt;&lt;/p&gt;</description>

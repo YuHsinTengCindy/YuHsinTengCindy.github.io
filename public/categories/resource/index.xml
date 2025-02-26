@@ -9,16 +9,44 @@
     <lastBuildDate>Thu, 13 Feb 2025 18:29:22 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/resource/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Resource</title>
+      <title>學習資源整理</title>
       <link>http://localhost:1313/docs/resource/</link>
       <pubDate>Thu, 13 Feb 2025 18:29:22 +0800</pubDate>
       <guid>http://localhost:1313/docs/resource/</guid>
-      <description>&lt;h1 id=&#34;上課介紹的資源整理&#34;&gt;上課介紹的資源整理&lt;/h1&gt;
-&lt;p&gt;CSS
-日本優秀網站聚集地&lt;a href=&#34;https://www.s5-style.com/&#34; title=&#34;游標顯示&#34;&gt;日本優秀網站聚集地&lt;/a&gt;
-日本傳統配色網站
-運動曲線調節器
-金魚都能懂的 CSS&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;img alt=&#34;resource&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/resourec.png&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;上課介紹的資源整理線上自我學習資源整理&#34;&gt;上課介紹的資源整理、線上自我學習資源整理&lt;/h1&gt;
+&lt;h3 id=&#34;python&#34;&gt;Python&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://pythonbook.cc/chapters/basic/introduction&#34;&gt;為你自己學 Python 線上書&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;javascript&#34;&gt;JavaScript&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/lydiahallie/javascript-questions&#34;&gt;javascript-questions&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;https://ithelp.ithome.com.tw/articles/10190873&#34;&gt;重新認識 JavaSript 鐵人 30 天&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;https://book.vue.tw/CH1/1-1-introduction.html&#34;&gt;重新認識 Vue.js 線上書&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;css&#34;&gt;CSS&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.s5-style.com/&#34;&gt;日本優秀網站聚集地&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;https://nipponcolors.com/#gunjyo&#34;&gt;日本傳統配色網站&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;https://cubic-bezier.com/#.69,-0.01,.3,.54&#34;&gt;運動曲線調節器&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;https://www.youtube.com/@CSScoke&#34;&gt;金魚都能懂的 CSS&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;hugo-架站&#34;&gt;Hugo 架站&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo 官網&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;https://hackmd.io/@eMP9zQQ0Qt6I8Uqp2Vqy6w/SyiOheL5N/%2FBVqowKshRH246Q7UDyodFA#MarkDown%E8%AA%9E%E6%B3%95%E5%A4%A7%E5%85%A8&#34;&gt;Markdown 語法&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;https://github.com/ikatyang/emoji-cheat-sheet&#34;&gt;MarkDown Emoji&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;框架套件&#34;&gt;框架/套件&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://tailwindcss.com/docs/installation/using-vite&#34;&gt;Tailwindcss&lt;/a&gt; &lt;br&gt;
+&lt;a href=&#34;https://daisyui.com/docs/themes/&#34;&gt;daisyui&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;https://alpinejs.dev/essentials/installation&#34;&gt;alpine.js&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;https://www.djangoproject.com/&#34;&gt;django&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;basic&#34;&gt;Basic&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://developer.mozilla.org/zh-TW/&#34;&gt;MDN 資訊字典&lt;/a&gt;
+&lt;a href=&#34;https://stackoverflow.com/questions&#34;&gt;Stack-Overflow 資訊問題集&lt;/a&gt;
+&lt;a href=&#34;https://leetcode.com/explore/&#34;&gt;LeetCode 面試題大全 &lt;/a&gt;
+&lt;a href=&#34;https://www.explainthis.io/zh-hant&#34;&gt;Explain This&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;其他&#34;&gt;其他&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/f2etw/jobs/issues&#34;&gt;github job&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;https://syntax.fm/&#34;&gt;syn tax&lt;/a&gt; &lt;br&gt;
+&lt;a href=&#34;https://ithelp.ithome.com.tw/2024ironman/reward&#34;&gt;2024iThome鐵人賽 強者們學習資源&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;同學部落格&lt;/strong&gt;&lt;br&gt;
+&lt;a href=&#34;https://realnewbie.com/&#34;&gt;培鈞&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;https://noobincoding.zeabur.app/posts/resource/&#34;&gt;雷雷&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

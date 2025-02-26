@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>React on Cindy&#39;s blog</title>
+    <link>http://localhost:1313/categories/react/</link>
+    <description>Recent content in React on Cindy&#39;s blog</description>
+    <generator>Hugo -- 0.142.0</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Wed, 26 Feb 2025 14:56:40 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/react/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>整理學習React</title>
+      <link>http://localhost:1313/docs/startlearningreact/</link>
+      <pubDate>Wed, 26 Feb 2025 14:56:40 +0800</pubDate>
+      <guid>http://localhost:1313/docs/startlearningreact/</guid>
+      <description>&lt;h1 id=&#34;整理資料自我學習react&#34;&gt;整理資料，自我學習React&lt;/h1&gt;
+&lt;h2 id=&#34;react-是什麼&#34;&gt;React 是什麼？&lt;/h2&gt;
+&lt;p&gt;先來基本瞭解下，React 是什麼？&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;React 是一個陳述式、高效且具有彈性的 JavaScript 函式庫，用以建立使用者介面。它讓你使用小巧而獨立的「component」，來建立複雜的 UI。&lt;/li&gt;
+&lt;li&gt;由Ｆacebook在2013年開發出來的&lt;/li&gt;
+&lt;li&gt;嚴格上來說，React是函示庫（library),而不是框架（framework)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;官網也大大地寫著：&lt;a href=&#34;https://react.dev/&#34;&gt;(React官網)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The library for web and native user interfaces&lt;br&gt;
+用於網頁和原生應用的使用者介面函式庫&lt;/p&gt;
+&lt;h3 id=&#34;框架framework-vs-函式庫library-簡單區別&#34;&gt;框架（Framework） vs. 函式庫（Library） 簡單區別&lt;/h3&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;🚀 框架（Framework）&lt;/th&gt;
+          &lt;th&gt;🛠 函式庫（Library）&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;提供完整架構，規定開發方式&lt;/td&gt;
+          &lt;td&gt;提供功能，開發者決定怎麼用&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;「框架呼叫你的程式」（控制反轉）&lt;/td&gt;
+          &lt;td&gt;「你呼叫函式庫」（開發者主導）&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;有規範，要照它的規則寫&lt;/td&gt;
+          &lt;td&gt;彈性高，可以自由組合&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;💡 比喻：&lt;/p&gt;
+&lt;p&gt;框架 = 連鎖手搖飲（基本著有標準 SOP，必須照流程做）&lt;br&gt;
+函式庫 = 夜市小吃（自由選擇想吃什麼、怎麼搭配）&lt;/p&gt;
+&lt;h3 id=&#34;例外與灰色地帶為什麼有人會認為-react-是框架&#34;&gt;例外與灰色地帶：為什麼有人會認為 React 是框架？&lt;/h3&gt;
+&lt;p&gt;雖然 React 被定義為函式庫，但當它與 React Router（路由）、Redux（狀態管理）等強大生態系工具 搭配使用時，它的 完整性 就變得類似於框架。因此，有些開發者在實務上會稱它為「框架級函式庫」。&lt;br&gt;
+然而，React 本身不強制這些工具，因此仍然歸類為函式庫。&lt;/p&gt;
+&lt;h3 id=&#34;為什麼要選擇學習使用-react-&#34;&gt;為什麼要選擇學習使用 React ？&lt;/h3&gt;
+&lt;p&gt;編寫網頁需要用到三種語言：&lt;br&gt;
+HTML，CSS，JavaScrip&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;那先思考，那為什麼要使用React?&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;React 不是取代 HTML、CSS、JavaScript，而是讓 前端開發更高效、更有組織性、更易於維護 的一個工具。&lt;/p&gt;
+&lt;p&gt;💡 可以把它想像成：蓋房子的現代化工程技術，在 HTML、CSS、JavaScript 的基礎上，提供更強大的開發方式。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

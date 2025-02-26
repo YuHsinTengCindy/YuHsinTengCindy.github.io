@@ -1,12 +1,12 @@
 +++
-title = 'Resource'
+title = '學習資源整理'
 date = '2025-02-13T18:29:22+08:00'
 draft = false
 tags = ["Resource"]
 categories =["Resource"]
 +++
 ![resource](/images/resourec.png)
-# 上課介紹的資源整理
+# 上課介紹的資源整理、線上自我學習資源整理
 
 ### Python
 [為你自己學 Python 線上書](https://pythonbook.cc/chapters/basic/introduction)
@@ -37,9 +37,11 @@ categories =["Resource"]
 [MDN 資訊字典](https://developer.mozilla.org/zh-TW/)
 [Stack-Overflow 資訊問題集](https://stackoverflow.com/questions)
 [LeetCode 面試題大全 ](https://leetcode.com/explore/)
+[Explain This](https://www.explainthis.io/zh-hant)
 ### 其他   
 [github job](https://github.com/f2etw/jobs/issues)  
-[syn tax](https://syntax.fm/)   
+[syn tax](https://syntax.fm/)    
+[2024iThome鐵人賽 強者們學習資源](https://ithelp.ithome.com.tw/2024ironman/reward)  
 **同學部落格**  
 [培鈞](https://realnewbie.com/)  
 [雷雷](https://noobincoding.zeabur.app/posts/resource/)
