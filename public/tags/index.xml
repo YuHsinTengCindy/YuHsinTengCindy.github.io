@@ -6,8 +6,29 @@
     <description>Recent content in Tags on Cindy&#39;s blog</description>
     <generator>Hugo -- 0.142.0</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Wed, 26 Feb 2025 14:56:40 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 28 Feb 2025 01:59:14 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JavaScript</title>
+      <link>http://localhost:1313/tags/javascript/</link>
+      <pubDate>Fri, 28 Feb 2025 01:59:14 +0800</pubDate>
+      <guid>http://localhost:1313/tags/javascript/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Var Let Const</title>
+      <link>http://localhost:1313/tags/var-let-const/</link>
+      <pubDate>Fri, 28 Feb 2025 01:59:14 +0800</pubDate>
+      <guid>http://localhost:1313/tags/var-let-const/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hoisting</title>
+      <link>http://localhost:1313/tags/hoisting/</link>
+      <pubDate>Wed, 26 Feb 2025 21:04:16 +0800</pubDate>
+      <guid>http://localhost:1313/tags/hoisting/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Start Learning React</title>
       <link>http://localhost:1313/tags/start-learning-react/</link>

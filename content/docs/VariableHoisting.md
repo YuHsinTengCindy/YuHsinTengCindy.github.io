@@ -6,8 +6,7 @@ tags = ["JavaScript" , "Hoisting"]
 categories =["JavaScript"]
 +++
 ![VariableHoisting](/images/VariableHoisting.png)
-一邊整理JavaScript所學知識  
-[MDN:提升（Hoisting）](https://developer.mozilla.org/zh-TW/docs/Glossary/Hoisting)  
+一邊整理JavaScript所學知識   
 來筆記釐清 JaveScript 在執行階段內文如何運行的思路。  
 什麼是 Variable Hoisting ?JavaScript 變數提升  
 我們用runtime的角度來看，它不是一口氣跑完，是分層兩階段運行，在創建期(Creation Phase)和執行期(Execution Phase)階段有不同得變化。
@@ -168,5 +167,4 @@ var sayHi = function() {
 
 所以 sayHi() 在還沒賦值前就執行，會報錯
 
-
-
+[MDN:提升（Hoisting）](https://developer.mozilla.org/zh-TW/docs/Glossary/Hoisting) 

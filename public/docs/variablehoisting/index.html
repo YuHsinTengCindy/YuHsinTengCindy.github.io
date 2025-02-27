@@ -9,7 +9,6 @@
 <meta name="keywords" content="JavaScript, Hoisting">
 <meta name="description" content="
 一邊整理JavaScript所學知識
-MDN:提升（Hoisting）
 來筆記釐清 JaveScript 在執行階段內文如何運行的思路。
 什麼是 Variable Hoisting ?JavaScript 變數提升
 我們用runtime的角度來看，它不是一口氣跑完，是分層兩階段運行，在創建期(Creation Phase)和執行期(Execution Phase)階段有不同得變化。
@@ -185,7 +184,6 @@ let b = 1;">
   </header> 
   <div class="post-content"><p><img alt="VariableHoisting" loading="lazy" src="/images/VariableHoisting.png">
 一邊整理JavaScript所學知識<br>
-<a href="https://developer.mozilla.org/zh-TW/docs/Glossary/Hoisting">MDN:提升（Hoisting）</a><br>
 來筆記釐清 JaveScript 在執行階段內文如何運行的思路。<br>
 什麼是 Variable Hoisting ?JavaScript 變數提升<br>
 我們用runtime的角度來看，它不是一口氣跑完，是分層兩階段運行，在創建期(Creation Phase)和執行期(Execution Phase)階段有不同得變化。</p>
@@ -296,6 +294,7 @@ console.log(&ldquo;Hi!&rdquo;);<br>
 </code></pre><pre tabindex="0"><code>執行期
 1. 執行 sayHi() → ❌ TypeError（因為此時 sayHi 還是 undefined）
 </code></pre><p>所以 sayHi() 在還沒賦值前就執行，會報錯</p>
+<p><a href="https://developer.mozilla.org/zh-TW/docs/Glossary/Hoisting">MDN:提升（Hoisting）</a></p>
 
 
   </div>
