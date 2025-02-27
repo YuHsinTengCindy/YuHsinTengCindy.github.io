@@ -5,11 +5,11 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>JavaScript | Cindy&#39;s blog</title>
+<title>Var Let Const | Cindy&#39;s blog</title>
 <meta name="keywords" content="">
 <meta name="description" content="">
 <meta name="author" content="YuhsinTeng Cindy">
-<link rel="canonical" href="https://YuHsinTengCindy.github.io/tags/javascript/">
+<link rel="canonical" href="https://YuHsinTengCindy.github.io/tags/var-let-const/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.45e028aa8ce0961349adf411b013ee39406be2c0bc80d4ea3fc04555f7f4611a.css" integrity="sha256-ReAoqozglhNJrfQRsBPuOUBr4sC8gNTqP8BFVff0YRo=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://YuHsinTengCindy.github.io/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://YuHsinTengCindy.github.io/favicon-16x16.png">
@@ -18,8 +18,8 @@
 <link rel="mask-icon" href="https://YuHsinTengCindy.github.io/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="https://YuHsinTengCindy.github.io/tags/javascript/index.xml">
-<link rel="alternate" hreflang="en" href="https://YuHsinTengCindy.github.io/tags/javascript/">
+<link rel="alternate" type="application/rss+xml" href="https://YuHsinTengCindy.github.io/tags/var-let-const/index.xml">
+<link rel="alternate" hreflang="en" href="https://YuHsinTengCindy.github.io/tags/var-let-const/">
 <noscript>
     <style>
         #theme-toggle,
@@ -59,13 +59,13 @@
 </noscript>
   
 
-<meta property="og:url" content="https://YuHsinTengCindy.github.io/tags/javascript/">
+<meta property="og:url" content="https://YuHsinTengCindy.github.io/tags/var-let-const/">
   <meta property="og:site_name" content="Cindy&#39;s blog">
-  <meta property="og:title" content="JavaScript">
+  <meta property="og:title" content="Var Let Const">
   <meta property="og:locale" content="zh-tw">
   <meta property="og:type" content="website">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="JavaScript">
+<meta name="twitter:title" content="Var Let Const">
 <meta name="twitter:description" content="">
 
 </head>
@@ -139,7 +139,7 @@
 <main class="main"> 
 <header class="page-header">
   <h1>
-    JavaScript
+    Var Let Const
   </h1>
 </header>
 
@@ -165,43 +165,6 @@ let greeting = “Hi Hi”;
   </div>
   <footer class="entry-footer"><span title='2025-02-28 01:59:14 +0800 +0800'>February 28, 2025</span>&nbsp;·&nbsp;YuhsinTeng Cindy</footer>
   <a class="entry-link" aria-label="post link to JavaScript 中用 var, let, 以及 const 有什麼差別？" href="https://YuHsinTengCindy.github.io/docs/verletconst/"></a>
-</article>
-
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">什麼是 Variable Hoisting ?JavaScript 變數提升
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>一邊整理JavaScript所學知識
-來筆記釐清 JaveScript 在執行階段內文如何運行的思路。
-什麼是 Variable Hoisting ?JavaScript 變數提升
-我們用runtime的角度來看，它不是一口氣跑完，是分層兩階段運行，在創建期(Creation Phase)和執行期(Execution Phase)階段有不同得變化。
-來分解動作
-在 建立期 時，會兩階段運作
-註冊名稱identifier（要那個東西的名字） 1-2. 進行初始化（初始化那個東西，通常是undefined) 在 執行期 時
-執行函數/賦值（動作執行，或是給值，都是這個時候） 好的，來看
-var a = 1;
-console.log(a);
-建立期: 1. var a 1-2.undefined 執行期: a = 1 console.log(a) /印出1 那同理可知，如果是這樣呢？
-console.log(a);
-var a =1;
-console.log(a);
-會印出什麼？
-答案是： undefined （第一圈已知有var a也有初始化，但第二圈執行期時先跑了他，但這邊還沒有賦值） 1 （已知a=1,執行出結果1） 所以同理就可以理解
-if(false){
-var a = 1;
-}
-console.log(a);
-是印出 undefined
-那let呢？let不會變數提升？
-No No~
-要記得JS本身就是分層兩階段運行，不管怎麼寫就是兩階段運做，運行時就是會提昇，那到底為什麼會有出錯的狀況呢？
-像是
-console.log(b);...</p>
-  </div>
-  <footer class="entry-footer"><span title='2025-02-26 21:04:16 +0800 +0800'>February 26, 2025</span>&nbsp;·&nbsp;YuhsinTeng Cindy</footer>
-  <a class="entry-link" aria-label="post link to 什麼是 Variable Hoisting ?JavaScript 變數提升" href="https://YuHsinTengCindy.github.io/docs/variablehoisting/"></a>
 </article>
     </main>
     
