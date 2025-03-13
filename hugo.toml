@@ -55,4 +55,8 @@ metaDescription = "分享我的旅行故事、程式設計經驗以及生活點�
   url = "/about/"
   weight = 40
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 

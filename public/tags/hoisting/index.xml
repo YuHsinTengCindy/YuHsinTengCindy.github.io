@@ -15,7 +15,6 @@
       <guid>http://localhost:1313/docs/variablehoisting/</guid>
       <description>&lt;p&gt;&lt;img alt=&#34;VariableHoisting&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/VariableHoisting.png&#34;&gt;
 一邊整理JavaScript所學知識&lt;br&gt;
-&lt;a href=&#34;https://developer.mozilla.org/zh-TW/docs/Glossary/Hoisting&#34;&gt;MDN:提升（Hoisting）&lt;/a&gt;&lt;br&gt;
 來筆記釐清 JaveScript 在執行階段內文如何運行的思路。&lt;br&gt;
 什麼是 Variable Hoisting ?JavaScript 變數提升&lt;br&gt;
 我們用runtime的角度來看，它不是一口氣跑完，是分層兩階段運行，在創建期(Creation Phase)和執行期(Execution Phase)階段有不同得變化。&lt;/p&gt;

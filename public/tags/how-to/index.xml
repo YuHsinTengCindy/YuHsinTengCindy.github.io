@@ -39,7 +39,8 @@ hugo new site theplaybook-demo -f yml
 &lt;p&gt;找到baseURL 目前先不要設定 baseurl，保持空白。&lt;/p&gt;
 &lt;h4 id=&#34;創建新頁面&#34;&gt;創建新頁面&lt;/h4&gt;
 &lt;p&gt;&lt;code&gt;hugo new docs/test.md&lt;/code&gt;&lt;br&gt;
-用 hugo new &lt;!-- raw HTML omitted --&gt; 創建一個新的頁面。打開 test 文件，並將 draft: 設為false ，否則頁面將無法呈現。可以在 test. md 中添加隨便的內容。&lt;/p&gt;</description>
+用 hugo new &lt;filename&gt; 創建一個新的頁面。打開 test 文件，並將 draft: 設為false ，否則頁面將無法呈現。可以在 test. md 中添加隨便的內容。&lt;/p&gt;
+&lt;p&gt;執行 hugo server 可以在本地端的 localhost:1313 測試應用程式，但如果沒有設置佈景主題，可能會顯示佈局錯誤。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
